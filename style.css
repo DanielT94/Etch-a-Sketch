@@ -32,8 +32,9 @@ button {
     border: none;
 }
 
-button:active {
-    background-color: #666666;
+button.active {
+    transition: 0.4s;
+    background-color: #969494;
 }
 
 .grid {
@@ -48,6 +49,7 @@ button:active {
 button:hover {
     background-color:#d8d8d8;
     transition: 0.4s;
+    transform: scale(1.04);
 }
 
 input {
